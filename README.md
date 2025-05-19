@@ -123,27 +123,12 @@ Project-Embedded/
 | IO Thread (.cpp, .h) | ~122 |
 | Main Application (main.cpp) | ~574 |
 
-## Demo
-
-- [Video Demo - Terminal Output](https://youtu.be/2yeZVQfAayo)
-
-## Challenges and Solutions
-
-- **Color Sensor Connection**: Initial unstable readings resolved by optimizing connections
-- **GPS Signal Acquisition**: Indoor signal issues solved by testing outdoors and correcting TX/RX wiring
-- **I2C Bus Configuration**: Simplified wiring to improve reliability and portability
-- **PWM Implementation**: Created dedicated thread with timer-based control for smooth LED transitions
-
-## Advanced Implementations
-
 ### Software PWM for RGB LED Control
 
 - Custom timer-based PWM emulation at 200Hz
 - Dynamic color scaling based on sensor readings
 - Real-time violation handling with visual feedback
 - Round-robin cycling through active violations
-
-## References
 
 ### Datasheets
 
